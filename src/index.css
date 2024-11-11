@@ -1,0 +1,22 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body 
+{
+  overflow-x: hidden;
+  background: #dddddd;
+  color: #17181a;
+}
+
+a 
+{
+  text-decoration: none;
+  color: inherit;
+  font-size: clamp(1rem, 2vw, 1.1rem);
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+}

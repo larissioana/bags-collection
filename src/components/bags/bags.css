@@ -1,0 +1,63 @@
+.bags-wrapper
+{
+    width: 100%;
+    padding: 3rem 1rem 1rem 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.bag-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all .4s ease-in;
+    cursor: pointer;
+    position: relative;
+}
+
+.number-of-bags 
+{
+    font-family: monospace;
+    font-size: clamp(.9rem, 2vw, 1.1rem);
+    font-weight: lighter;
+}
+
+.bag-image 
+{
+    width: 250px;
+    position: fixed;
+    top: 15%;
+    right: 15%;
+    object-fit: cover;
+    z-index: 10;
+}
+
+.bag-container p
+{
+   font-weight: bold;
+}
+
+.bag-container h1
+{
+    font-size: clamp(1rem, 2vw, 1.1rem);
+}
+
+.price 
+{
+    font-size: clamp(1rem, 2vw, 1.1rem);
+}
+
+@media screen and (max-width: 768px)
+{
+    .bag-container
+    {
+        padding: .5rem;
+    } 
+    .bag-image
+    {
+        left: 2%;
+        top: 8%;
+    }
+}
