@@ -5,7 +5,7 @@ A React project showcasing a collection of bags with a smooth hover animation th
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/larissioana/products-bags.git
+   git clone https://github.com/larissioana/bags-collection.git
    cd products-accessories
    ```
 
